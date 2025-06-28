@@ -1,0 +1,15 @@
+{
+	"name": "@repo/science",
+	"files": [
+		"dist"
+	],
+	"exports": {
+		".": "./src",
+		"./add": "./src/utils/add.ts"
+	},
+	"devDependencies": {
+		"@repo/typescript-config": "workspace:*",
+		"typescript": "latest",
+		"@repo/eslint-config": "workspace:*"
+	}
+}
